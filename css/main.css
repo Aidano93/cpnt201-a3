@@ -1,0 +1,83 @@
+body {
+  background-color: #596157;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 2rem;
+
+  text-align: center;
+
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+
+  background-color: palevioletred;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.svg-wrapper {
+  width: 40rem;
+  height: 40rem;
+
+  margin: auto;
+
+  background-color: #E3655B;
+  
+}
+
+.border-one {
+  fill: #596157;
+
+}
+
+.shield {
+  fill: #5B8C5A;
+  
+  stroke: black;
+  filter: drop-shadow(2px 2px 2px black);
+
+  
+
+}
+
+.border {
+  fill: #596157;
+  
+}
+
+.star {
+  fill: #CFD186;
+  
+  stroke: black;
+  filter: drop-shadow(2px 2px 2px black);
+
+}
+
+#toggle:checked ~ .svg-wrapper{
+  background-color: #ADD9F4;
+}
+
+#toggle:checked ~ .svg-wrapper .shield {
+  fill: #468C98;
+}
+
+#toggle:checked ~ .shiel.svg-wrapper .border {
+  fill: #101419;
+}
+
+#toggle:checked ~ .svg-wrapper .star {
+  fill: #984447;
+}
+
+#toggle:checked ~ .svg-wrapper .border-one {
+  fill: #ADD9F4;
+}
