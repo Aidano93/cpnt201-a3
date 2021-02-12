@@ -22,6 +22,7 @@ label {
 
   background-color: palevioletred;
   border-radius: 2rem;
+  border: black solid 0.2rem;
   padding: 1rem;
 }
 .svg-wrapper {
@@ -31,12 +32,16 @@ label {
   margin: auto;
 
   background-color: #E3655B;
+  transition: 1s;
+
+  border: black solid 0.5rem;
+  border-radius: 1rem;
   
 }
 
 .border-one {
   fill: #596157;
-
+  transition: 1s;
 }
 
 .shield {
@@ -44,6 +49,7 @@ label {
   
   stroke: black;
   filter: drop-shadow(2px 2px 2px black);
+  transition: 1s;
 
   
 
@@ -51,6 +57,7 @@ label {
 
 .border {
   fill: #596157;
+  transition: 1s;
   
 }
 
@@ -59,25 +66,31 @@ label {
   
   stroke: black;
   filter: drop-shadow(2px 2px 2px black);
+  transition: 1s;
 
 }
 
 #toggle:checked ~ .svg-wrapper{
   background-color: #ADD9F4;
+  transition: 1s;
 }
 
 #toggle:checked ~ .svg-wrapper .shield {
   fill: #468C98;
+  transition: 1s;
 }
 
 #toggle:checked ~ .shiel.svg-wrapper .border {
   fill: #101419;
+  transition: 1s;
 }
 
 #toggle:checked ~ .svg-wrapper .star {
   fill: #984447;
+  transition: 1s;
 }
 
 #toggle:checked ~ .svg-wrapper .border-one {
   fill: #ADD9F4;
+  transition: 1s;
 }
