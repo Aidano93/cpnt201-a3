@@ -1,9 +1,9 @@
 # CPNT-201 Assignment 3
 By Aidan O'Reilly
 
-Repo:
+Repo: https://github.com/Aidano93/cpnt201-a3
 
-Page:
+Page: https://aidano93.github.io/cpnt201-a3/
 
 ## Summary:
 The demo graphic 'Future Shield' can be found in the index html. A default color scheme has been assigned. 
